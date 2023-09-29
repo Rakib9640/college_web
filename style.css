@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    border-radius: 6px;
+}
+marquee{
+    background-color: rgb(153, 153, 215);
+    color: black;
+}
+
+.slide{
+    background-color: rgba(0, 0, 255, 0.575);
+    
+}
+.about{
+    font-display: initial;
+}
+.photo_album img{
+    width:100%;
+}
+body{
+    background-color:  rgba(210, 246, 246, 0.807)!important;
+}
+.table-hover:hover{
+    background-color: rgba(210, 246, 246, 0.807)!important;
+    border-radius: 5px;
+
+}
+.bac-ing{
+    background-color: rgba(147, 241, 241, 0.807);
+}
+.navbar{
+    position:  static !important;
+}
+@media (max-width: 576px) { 
+    .logo img{ width: 40px;};
+}
+
